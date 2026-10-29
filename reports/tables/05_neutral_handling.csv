@@ -1,0 +1,10 @@
+setting,test set,macro_f1,f1_neutral,recall_neutral,accuracy
+"3 classes, balanced weights",In-domain (holdout),0.6317134726411257,0.26993865030674846,0.39285714285714285,
+"3 classes, balanced weights","Known brand, new app",0.6415585764183894,0.21333333333333335,0.4,
+"3 classes, balanced weights",Unseen brands,0.632184818157452,0.23076923076923078,0.35,
+"3 classes, no weights",In-domain (holdout),0.5581445716696397,0.0,0.0,
+"3 classes, no weights","Known brand, new app",0.5777656873021578,0.0,0.0,
+"3 classes, no weights",Unseen brands,0.5623350065067857,0.0,0.0,
+2 classes (neutral removed),In-domain (holdout),0.8608870967741935,,,0.8763440860215054
+2 classes (neutral removed),"Known brand, new app",0.8736303368236782,,,0.9064935064935065
+2 classes (neutral removed),Unseen brands,0.875343830974686,,,0.8763102725366876

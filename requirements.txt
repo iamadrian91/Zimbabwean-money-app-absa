@@ -1,0 +1,26 @@
+# Core (tested with Python 3.13 on Windows and Linux)
+pandas==3.1.0
+numpy==2.5.4
+scikit-learn==1.9.1
+scipy==1.18.1
+nltk==3.10.4
+spacy==3.8.17           # English model en_core_web_sm is downloaded automatically on first run
+gensim==4.4.0
+vaderSentiment==3.3.2
+emoji==2.16.0
+matplotlib==3.11.2
+wordcloud==1.9.6        # word clouds in notebook 07 and the app
+openpyxl==3.1.5
+joblib==1.6.0
+google-play-scraper==1.2.7
+
+# Interface
+streamlit==1.66.1
+
+# Notebooks and tests
+ipykernel==7.4.0
+pytest==9.1.1
+
+# Optional: pretrained transformer baseline (scripts/transformer_baseline.py), about 700 MB with the model
+# torch
+# transformers

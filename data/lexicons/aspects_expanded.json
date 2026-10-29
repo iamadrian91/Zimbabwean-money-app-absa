@@ -1,0 +1,3823 @@
+{
+ "_about": "Lexicon expansion with FastText (notebook 04). 'candidates' = every word proposed by the embedding neighbours of the seed terms (score = mean cosine similarity x log(1+number of seeds that proposed it)). 'accepted' = words kept after manual review. Rejected words were mostly spelling look-alikes without the same meaning (e.g. 'trash' near 'crash', 'flow' near 'slow') or generic words ('check', 'view', 'show'). Some accepted words were not proposed directly but are the phrase the proposed word belongs to (e.g. 'master' -> 'master card').",
+ "accepted": {
+  "balance": [
+   "confirmation"
+  ],
+  "cards": [
+   "master card",
+   "unblock",
+   "physical card"
+  ],
+  "compatibility": [
+   "galaxy",
+   "detected"
+  ],
+  "login": [
+   "registered",
+   "identification",
+   "activating",
+   "deactivate",
+   "deactivated",
+   "finger",
+   "validation",
+   "recognise",
+   "recognised"
+  ],
+  "payments": [
+   "token",
+   "prepaid",
+   "scanner",
+   "bundle"
+  ],
+  "performance": [
+   "fail",
+   "crushing",
+   "crushes",
+   "responsive",
+   "functioning",
+   "closes",
+   "stopping",
+   "refuses",
+   "dependable"
+  ],
+  "security": [
+   "secured"
+  ],
+  "support": [
+   "complaining",
+   "assist",
+   "assisted",
+   "contacted",
+   "employees"
+  ],
+  "transactions": [
+   "transactional",
+   "recipient"
+  ],
+  "updates": [
+   "reinstalling",
+   "installation",
+   "downgrade",
+   "outdated"
+  ],
+  "usability": [
+   "convinient",
+   "convinience",
+   "inconvinience",
+   "inconveniences",
+   "easly",
+   "seamless",
+   "ease",
+   "function",
+   "functions",
+   "modern"
+  ]
+ },
+ "candidates": [
+  {
+   "aspect": "balance",
+   "candidate": "state",
+   "n_seeds": 2,
+   "mean_sim": 0.846,
+   "freq": 3,
+   "score": 0.929,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "status",
+   "n_seeds": 2,
+   "mean_sim": 0.773,
+   "freq": 3,
+   "score": 0.849,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "shot",
+   "n_seeds": 2,
+   "mean_sim": 0.759,
+   "freq": 4,
+   "score": 0.834,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "situation",
+   "n_seeds": 2,
+   "mean_sim": 0.719,
+   "freq": 3,
+   "score": 0.79,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "documents",
+   "n_seeds": 2,
+   "mean_sim": 0.682,
+   "freq": 3,
+   "score": 0.749,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "management",
+   "n_seeds": 2,
+   "mean_sim": 0.65,
+   "freq": 3,
+   "score": 0.714,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "environment",
+   "n_seeds": 2,
+   "mean_sim": 0.634,
+   "freq": 3,
+   "score": 0.696,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "drawback",
+   "n_seeds": 2,
+   "mean_sim": 0.627,
+   "freq": 3,
+   "score": 0.689,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "view",
+   "n_seeds": 2,
+   "mean_sim": 0.619,
+   "freq": 13,
+   "score": 0.68,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "refresh",
+   "n_seeds": 2,
+   "mean_sim": 0.605,
+   "freq": 15,
+   "score": 0.665,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "refreshing",
+   "n_seeds": 2,
+   "mean_sim": 0.599,
+   "freq": 3,
+   "score": 0.659,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "balances",
+   "n_seeds": 1,
+   "mean_sim": 0.88,
+   "freq": 8,
+   "score": 0.61,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "confirmation",
+   "n_seeds": 1,
+   "mean_sim": 0.674,
+   "freq": 14,
+   "score": 0.467,
+   "accepted": true
+  },
+  {
+   "aspect": "balance",
+   "candidate": "generate",
+   "n_seeds": 1,
+   "mean_sim": 0.665,
+   "freq": 5,
+   "score": 0.461,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "lucky",
+   "n_seeds": 1,
+   "mean_sim": 0.66,
+   "freq": 3,
+   "score": 0.458,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "policy",
+   "n_seeds": 1,
+   "mean_sim": 0.652,
+   "freq": 3,
+   "score": 0.452,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "check",
+   "n_seeds": 1,
+   "mean_sim": 0.651,
+   "freq": 34,
+   "score": 0.451,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "meet",
+   "n_seeds": 1,
+   "mean_sim": 0.638,
+   "freq": 3,
+   "score": 0.442,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "shows",
+   "n_seeds": 1,
+   "mean_sim": 0.636,
+   "freq": 8,
+   "score": 0.441,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "prior",
+   "n_seeds": 1,
+   "mean_sim": 0.631,
+   "freq": 4,
+   "score": 0.437,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "product",
+   "n_seeds": 1,
+   "mean_sim": 0.626,
+   "freq": 4,
+   "score": 0.434,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "shown",
+   "n_seeds": 1,
+   "mean_sim": 0.625,
+   "freq": 3,
+   "score": 0.433,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "clients",
+   "n_seeds": 1,
+   "mean_sim": 0.62,
+   "freq": 7,
+   "score": 0.43,
+   "accepted": false
+  },
+  {
+   "aspect": "balance",
+   "candidate": "improvements",
+   "n_seeds": 1,
+   "mean_sim": 0.612,
+   "freq": 9,
+   "score": 0.424,
+   "accepted": false
+  },
+  {
+   "aspect": "cards",
+   "candidate": "physical",
+   "n_seeds": 3,
+   "mean_sim": 0.624,
+   "freq": 6,
+   "score": 0.865,
+   "accepted": false
+  },
+  {
+   "aspect": "cards",
+   "candidate": "master",
+   "n_seeds": 1,
+   "mean_sim": 0.803,
+   "freq": 6,
+   "score": 0.557,
+   "accepted": false
+  },
+  {
+   "aspect": "cards",
+   "candidate": "kashagi",
+   "n_seeds": 1,
+   "mean_sim": 0.714,
+   "freq": 5,
+   "score": 0.495,
+   "accepted": false
+  },
+  {
+   "aspect": "cards",
+   "candidate": "masterpiece",
+   "n_seeds": 1,
+   "mean_sim": 0.664,
+   "freq": 3,
+   "score": 0.46,
+   "accepted": false
+  },
+  {
+   "aspect": "cards",
+   "candidate": "visit",
+   "n_seeds": 1,
+   "mean_sim": 0.66,
+   "freq": 6,
+   "score": 0.458,
+   "accepted": false
+  },
+  {
+   "aspect": "cards",
+   "candidate": "unblock",
+   "n_seeds": 1,
+   "mean_sim": 0.622,
+   "freq": 6,
+   "score": 0.431,
+   "accepted": true
+  },
+  {
+   "aspect": "cards",
+   "candidate": "international",
+   "n_seeds": 1,
+   "mean_sim": 0.62,
+   "freq": 13,
+   "score": 0.43,
+   "accepted": false
+  },
+  {
+   "aspect": "cards",
+   "candidate": "video",
+   "n_seeds": 1,
+   "mean_sim": 0.618,
+   "freq": 3,
+   "score": 0.428,
+   "accepted": false
+  },
+  {
+   "aspect": "cards",
+   "candidate": "hard",
+   "n_seeds": 1,
+   "mean_sim": 0.597,
+   "freq": 13,
+   "score": 0.414,
+   "accepted": false
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "galaxy",
+   "n_seeds": 4,
+   "mean_sim": 0.695,
+   "freq": 6,
+   "score": 1.119,
+   "accepted": true
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "tab",
+   "n_seeds": 2,
+   "mean_sim": 0.73,
+   "freq": 3,
+   "score": 0.802,
+   "accepted": false
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "compared",
+   "n_seeds": 2,
+   "mean_sim": 0.699,
+   "freq": 6,
+   "score": 0.768,
+   "accepted": false
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "company",
+   "n_seeds": 2,
+   "mean_sim": 0.674,
+   "freq": 9,
+   "score": 0.74,
+   "accepted": false
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "ability",
+   "n_seeds": 1,
+   "mean_sim": 0.736,
+   "freq": 3,
+   "score": 0.51,
+   "accepted": false
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "putting",
+   "n_seeds": 1,
+   "mean_sim": 0.727,
+   "freq": 7,
+   "score": 0.504,
+   "accepted": false
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "setting",
+   "n_seeds": 1,
+   "mean_sim": 0.721,
+   "freq": 5,
+   "score": 0.5,
+   "accepted": false
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "companies",
+   "n_seeds": 1,
+   "mean_sim": 0.708,
+   "freq": 3,
+   "score": 0.491,
+   "accepted": false
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "inability",
+   "n_seeds": 1,
+   "mean_sim": 0.698,
+   "freq": 3,
+   "score": 0.484,
+   "accepted": false
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "detected",
+   "n_seeds": 1,
+   "mean_sim": 0.679,
+   "freq": 7,
+   "score": 0.47,
+   "accepted": true
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "reached",
+   "n_seeds": 1,
+   "mean_sim": 0.671,
+   "freq": 18,
+   "score": 0.465,
+   "accepted": false
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "corrected",
+   "n_seeds": 1,
+   "mean_sim": 0.635,
+   "freq": 3,
+   "score": 0.44,
+   "accepted": false
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "sim",
+   "n_seeds": 1,
+   "mean_sim": 0.614,
+   "freq": 12,
+   "score": 0.425,
+   "accepted": false
+  },
+  {
+   "aspect": "compatibility",
+   "candidate": "visible",
+   "n_seeds": 1,
+   "mean_sim": 0.61,
+   "freq": 7,
+   "score": 0.423,
+   "accepted": false
+  },
+  {
+   "aspect": "connectivity",
+   "candidate": "unnecessary",
+   "n_seeds": 3,
+   "mean_sim": 0.598,
+   "freq": 4,
+   "score": 0.829,
+   "accepted": false
+  },
+  {
+   "aspect": "connectivity",
+   "candidate": "networks",
+   "n_seeds": 2,
+   "mean_sim": 0.739,
+   "freq": 3,
+   "score": 0.812,
+   "accepted": false
+  },
+  {
+   "aspect": "connectivity",
+   "candidate": "internal",
+   "n_seeds": 2,
+   "mean_sim": 0.661,
+   "freq": 6,
+   "score": 0.726,
+   "accepted": false
+  },
+  {
+   "aspect": "connectivity",
+   "candidate": "strong",
+   "n_seeds": 2,
+   "mean_sim": 0.601,
+   "freq": 3,
+   "score": 0.66,
+   "accepted": false
+  },
+  {
+   "aspect": "connectivity",
+   "candidate": "imagine",
+   "n_seeds": 1,
+   "mean_sim": 0.64,
+   "freq": 7,
+   "score": 0.444,
+   "accepted": false
+  },
+  {
+   "aspect": "connectivity",
+   "candidate": "hectic",
+   "n_seeds": 1,
+   "mean_sim": 0.628,
+   "freq": 4,
+   "score": 0.435,
+   "accepted": false
+  },
+  {
+   "aspect": "connectivity",
+   "candidate": "plan",
+   "n_seeds": 1,
+   "mean_sim": 0.624,
+   "freq": 3,
+   "score": 0.433,
+   "accepted": false
+  },
+  {
+   "aspect": "connectivity",
+   "candidate": "gonna",
+   "n_seeds": 1,
+   "mean_sim": 0.591,
+   "freq": 3,
+   "score": 0.409,
+   "accepted": false
+  },
+  {
+   "aspect": "connectivity",
+   "candidate": "mine",
+   "n_seeds": 1,
+   "mean_sim": 0.583,
+   "freq": 5,
+   "score": 0.404,
+   "accepted": false
+  },
+  {
+   "aspect": "connectivity",
+   "candidate": "off",
+   "n_seeds": 1,
+   "mean_sim": 0.571,
+   "freq": 17,
+   "score": 0.396,
+   "accepted": false
+  },
+  {
+   "aspect": "connectivity",
+   "candidate": "insane",
+   "n_seeds": 1,
+   "mean_sim": 0.563,
+   "freq": 3,
+   "score": 0.39,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "comfortable",
+   "n_seeds": 2,
+   "mean_sim": 0.701,
+   "freq": 4,
+   "score": 0.77,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "checking",
+   "n_seeds": 2,
+   "mean_sim": 0.666,
+   "freq": 9,
+   "score": 0.731,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "feel",
+   "n_seeds": 1,
+   "mean_sim": 0.817,
+   "freq": 8,
+   "score": 0.566,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "feels",
+   "n_seeds": 1,
+   "mean_sim": 0.693,
+   "freq": 4,
+   "score": 0.48,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "managing",
+   "n_seeds": 1,
+   "mean_sim": 0.693,
+   "freq": 3,
+   "score": 0.48,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "zwl",
+   "n_seeds": 1,
+   "mean_sim": 0.663,
+   "freq": 4,
+   "score": 0.459,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "comfort",
+   "n_seeds": 1,
+   "mean_sim": 0.659,
+   "freq": 5,
+   "score": 0.457,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "highly",
+   "n_seeds": 1,
+   "mean_sim": 0.659,
+   "freq": 9,
+   "score": 0.457,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "party",
+   "n_seeds": 1,
+   "mean_sim": 0.656,
+   "freq": 3,
+   "score": 0.455,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "woow",
+   "n_seeds": 1,
+   "mean_sim": 0.643,
+   "freq": 4,
+   "score": 0.446,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "etc",
+   "n_seeds": 1,
+   "mean_sim": 0.643,
+   "freq": 14,
+   "score": 0.445,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "partner",
+   "n_seeds": 1,
+   "mean_sim": 0.622,
+   "freq": 3,
+   "score": 0.431,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "left",
+   "n_seeds": 1,
+   "mean_sim": 0.619,
+   "freq": 6,
+   "score": 0.429,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "understand",
+   "n_seeds": 1,
+   "mean_sim": 0.603,
+   "freq": 6,
+   "score": 0.418,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "addressed",
+   "n_seeds": 1,
+   "mean_sim": 0.592,
+   "freq": 3,
+   "score": 0.41,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "best",
+   "n_seeds": 1,
+   "mean_sim": 0.589,
+   "freq": 264,
+   "score": 0.408,
+   "accepted": false
+  },
+  {
+   "aspect": "fees",
+   "candidate": "five",
+   "n_seeds": 1,
+   "mean_sim": 0.586,
+   "freq": 3,
+   "score": 0.407,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "registered",
+   "n_seeds": 3,
+   "mean_sim": 0.791,
+   "freq": 22,
+   "score": 1.097,
+   "accepted": true
+  },
+  {
+   "aspect": "login",
+   "candidate": "identification",
+   "n_seeds": 3,
+   "mean_sim": 0.764,
+   "freq": 3,
+   "score": 1.059,
+   "accepted": true
+  },
+  {
+   "aspect": "login",
+   "candidate": "deactivate",
+   "n_seeds": 3,
+   "mean_sim": 0.763,
+   "freq": 3,
+   "score": 1.058,
+   "accepted": true
+  },
+  {
+   "aspect": "login",
+   "candidate": "location",
+   "n_seeds": 3,
+   "mean_sim": 0.717,
+   "freq": 5,
+   "score": 0.994,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "activating",
+   "n_seeds": 2,
+   "mean_sim": 0.781,
+   "freq": 3,
+   "score": 0.858,
+   "accepted": true
+  },
+  {
+   "aspect": "login",
+   "candidate": "rejecting",
+   "n_seeds": 3,
+   "mean_sim": 0.613,
+   "freq": 3,
+   "score": 0.85,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "destination",
+   "n_seeds": 2,
+   "mean_sim": 0.671,
+   "freq": 3,
+   "score": 0.737,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "rejected",
+   "n_seeds": 2,
+   "mean_sim": 0.627,
+   "freq": 3,
+   "score": 0.689,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "field",
+   "n_seeds": 2,
+   "mean_sim": 0.623,
+   "freq": 4,
+   "score": 0.684,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "recognise",
+   "n_seeds": 2,
+   "mean_sim": 0.622,
+   "freq": 5,
+   "score": 0.683,
+   "accepted": true
+  },
+  {
+   "aspect": "login",
+   "candidate": "input",
+   "n_seeds": 2,
+   "mean_sim": 0.605,
+   "freq": 32,
+   "score": 0.664,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "inputting",
+   "n_seeds": 2,
+   "mean_sim": 0.603,
+   "freq": 3,
+   "score": 0.663,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "incorrect",
+   "n_seeds": 2,
+   "mean_sim": 0.6,
+   "freq": 13,
+   "score": 0.66,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "finger",
+   "n_seeds": 1,
+   "mean_sim": 0.884,
+   "freq": 4,
+   "score": 0.613,
+   "accepted": true
+  },
+  {
+   "aspect": "login",
+   "candidate": "essential",
+   "n_seeds": 1,
+   "mean_sim": 0.772,
+   "freq": 3,
+   "score": 0.535,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "validation",
+   "n_seeds": 1,
+   "mean_sim": 0.746,
+   "freq": 5,
+   "score": 0.517,
+   "accepted": true
+  },
+  {
+   "aspect": "login",
+   "candidate": "otps",
+   "n_seeds": 1,
+   "mean_sim": 0.735,
+   "freq": 10,
+   "score": 0.51,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "communicate",
+   "n_seeds": 1,
+   "mean_sim": 0.695,
+   "freq": 6,
+   "score": 0.482,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "information",
+   "n_seeds": 1,
+   "mean_sim": 0.677,
+   "freq": 12,
+   "score": 0.469,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "stays",
+   "n_seeds": 1,
+   "mean_sim": 0.669,
+   "freq": 3,
+   "score": 0.464,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "continually",
+   "n_seeds": 1,
+   "mean_sim": 0.667,
+   "freq": 4,
+   "score": 0.462,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "pass",
+   "n_seeds": 1,
+   "mean_sim": 0.66,
+   "freq": 6,
+   "score": 0.458,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "word",
+   "n_seeds": 1,
+   "mean_sim": 0.645,
+   "freq": 3,
+   "score": 0.447,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "continues",
+   "n_seeds": 1,
+   "mean_sim": 0.638,
+   "freq": 4,
+   "score": 0.442,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "late",
+   "n_seeds": 1,
+   "mean_sim": 0.638,
+   "freq": 7,
+   "score": 0.442,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "surely",
+   "n_seeds": 1,
+   "mean_sim": 0.636,
+   "freq": 3,
+   "score": 0.441,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "entering",
+   "n_seeds": 1,
+   "mean_sim": 0.636,
+   "freq": 17,
+   "score": 0.441,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "due",
+   "n_seeds": 1,
+   "mean_sim": 0.633,
+   "freq": 3,
+   "score": 0.439,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "answers",
+   "n_seeds": 1,
+   "mean_sim": 0.615,
+   "freq": 3,
+   "score": 0.426,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "set",
+   "n_seeds": 1,
+   "mean_sim": 0.61,
+   "freq": 12,
+   "score": 0.422,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "keypad",
+   "n_seeds": 1,
+   "mean_sim": 0.602,
+   "freq": 3,
+   "score": 0.417,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "dead",
+   "n_seeds": 1,
+   "mean_sim": 0.596,
+   "freq": 7,
+   "score": 0.413,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "setback",
+   "n_seeds": 1,
+   "mean_sim": 0.593,
+   "freq": 3,
+   "score": 0.411,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "entered",
+   "n_seeds": 1,
+   "mean_sim": 0.585,
+   "freq": 6,
+   "score": 0.406,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "type",
+   "n_seeds": 1,
+   "mean_sim": 0.577,
+   "freq": 23,
+   "score": 0.4,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "dear",
+   "n_seeds": 1,
+   "mean_sim": 0.577,
+   "freq": 3,
+   "score": 0.4,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "onto",
+   "n_seeds": 1,
+   "mean_sim": 0.569,
+   "freq": 5,
+   "score": 0.395,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "answer",
+   "n_seeds": 1,
+   "mean_sim": 0.568,
+   "freq": 5,
+   "score": 0.394,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "resolve",
+   "n_seeds": 1,
+   "mean_sim": 0.564,
+   "freq": 4,
+   "score": 0.391,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "period",
+   "n_seeds": 1,
+   "mean_sim": 0.562,
+   "freq": 3,
+   "score": 0.39,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "copy",
+   "n_seeds": 1,
+   "mean_sim": 0.557,
+   "freq": 26,
+   "score": 0.386,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "remember",
+   "n_seeds": 1,
+   "mean_sim": 0.552,
+   "freq": 5,
+   "score": 0.383,
+   "accepted": false
+  },
+  {
+   "aspect": "login",
+   "candidate": "finally",
+   "n_seeds": 1,
+   "mean_sim": 0.552,
+   "freq": 8,
+   "score": 0.383,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "token",
+   "n_seeds": 8,
+   "mean_sim": 0.726,
+   "freq": 6,
+   "score": 1.595,
+   "accepted": true
+  },
+  {
+   "aspect": "payments",
+   "candidate": "prepaid",
+   "n_seeds": 3,
+   "mean_sim": 0.722,
+   "freq": 3,
+   "score": 1.001,
+   "accepted": true
+  },
+  {
+   "aspect": "payments",
+   "candidate": "scanner",
+   "n_seeds": 3,
+   "mean_sim": 0.721,
+   "freq": 3,
+   "score": 1.0,
+   "accepted": true
+  },
+  {
+   "aspect": "payments",
+   "candidate": "bundle",
+   "n_seeds": 2,
+   "mean_sim": 0.756,
+   "freq": 8,
+   "score": 0.831,
+   "accepted": true
+  },
+  {
+   "aspect": "payments",
+   "candidate": "payments",
+   "n_seeds": 2,
+   "mean_sim": 0.703,
+   "freq": 42,
+   "score": 0.772,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "including",
+   "n_seeds": 2,
+   "mean_sim": 0.68,
+   "freq": 4,
+   "score": 0.747,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "inserting",
+   "n_seeds": 2,
+   "mean_sim": 0.662,
+   "freq": 4,
+   "score": 0.728,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "liquid",
+   "n_seeds": 2,
+   "mean_sim": 0.645,
+   "freq": 6,
+   "score": 0.709,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "brought",
+   "n_seeds": 1,
+   "mean_sim": 0.726,
+   "freq": 7,
+   "score": 0.503,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "running",
+   "n_seeds": 1,
+   "mean_sim": 0.701,
+   "freq": 11,
+   "score": 0.486,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "codes",
+   "n_seeds": 1,
+   "mean_sim": 0.685,
+   "freq": 10,
+   "score": 0.475,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "voice",
+   "n_seeds": 1,
+   "mean_sim": 0.68,
+   "freq": 4,
+   "score": 0.471,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "local",
+   "n_seeds": 1,
+   "mean_sim": 0.665,
+   "freq": 5,
+   "score": 0.461,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "thought",
+   "n_seeds": 1,
+   "mean_sim": 0.653,
+   "freq": 4,
+   "score": 0.452,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "show",
+   "n_seeds": 1,
+   "mean_sim": 0.632,
+   "freq": 24,
+   "score": 0.438,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "halls",
+   "n_seeds": 1,
+   "mean_sim": 0.628,
+   "freq": 4,
+   "score": 0.435,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "took",
+   "n_seeds": 1,
+   "mean_sim": 0.618,
+   "freq": 7,
+   "score": 0.428,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "short",
+   "n_seeds": 1,
+   "mean_sim": 0.613,
+   "freq": 13,
+   "score": 0.425,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "introduce",
+   "n_seeds": 1,
+   "mean_sim": 0.594,
+   "freq": 8,
+   "score": 0.412,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "grant",
+   "n_seeds": 1,
+   "mean_sim": 0.59,
+   "freq": 9,
+   "score": 0.409,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "storage",
+   "n_seeds": 1,
+   "mean_sim": 0.576,
+   "freq": 9,
+   "score": 0.399,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "credit",
+   "n_seeds": 1,
+   "mean_sim": 0.565,
+   "freq": 4,
+   "score": 0.392,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "joy",
+   "n_seeds": 1,
+   "mean_sim": 0.565,
+   "freq": 3,
+   "score": 0.392,
+   "accepted": false
+  },
+  {
+   "aspect": "payments",
+   "candidate": "second",
+   "n_seeds": 1,
+   "mean_sim": 0.564,
+   "freq": 4,
+   "score": 0.391,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "fail",
+   "n_seeds": 4,
+   "mean_sim": 0.792,
+   "freq": 4,
+   "score": 1.275,
+   "accepted": true
+  },
+  {
+   "aspect": "performance",
+   "candidate": "fair",
+   "n_seeds": 5,
+   "mean_sim": 0.673,
+   "freq": 9,
+   "score": 1.206,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "dependable",
+   "n_seeds": 3,
+   "mean_sim": 0.75,
+   "freq": 4,
+   "score": 1.04,
+   "accepted": true
+  },
+  {
+   "aspect": "performance",
+   "candidate": "unique",
+   "n_seeds": 4,
+   "mean_sim": 0.628,
+   "freq": 3,
+   "score": 1.011,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "brilliant",
+   "n_seeds": 4,
+   "mean_sim": 0.622,
+   "freq": 10,
+   "score": 1.002,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "flexible",
+   "n_seeds": 3,
+   "mean_sim": 0.699,
+   "freq": 5,
+   "score": 0.969,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "crushing",
+   "n_seeds": 2,
+   "mean_sim": 0.763,
+   "freq": 19,
+   "score": 0.839,
+   "accepted": true
+  },
+  {
+   "aspect": "performance",
+   "candidate": "overhaul",
+   "n_seeds": 3,
+   "mean_sim": 0.604,
+   "freq": 3,
+   "score": 0.837,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "crushes",
+   "n_seeds": 2,
+   "mean_sim": 0.721,
+   "freq": 6,
+   "score": 0.792,
+   "accepted": true
+  },
+  {
+   "aspect": "performance",
+   "candidate": "enjoyable",
+   "n_seeds": 2,
+   "mean_sim": 0.697,
+   "freq": 3,
+   "score": 0.766,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "incredible",
+   "n_seeds": 2,
+   "mean_sim": 0.691,
+   "freq": 4,
+   "score": 0.759,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "stopping",
+   "n_seeds": 2,
+   "mean_sim": 0.674,
+   "freq": 6,
+   "score": 0.74,
+   "accepted": true
+  },
+  {
+   "aspect": "performance",
+   "candidate": "popping",
+   "n_seeds": 2,
+   "mean_sim": 0.671,
+   "freq": 9,
+   "score": 0.738,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "usable",
+   "n_seeds": 2,
+   "mean_sim": 0.645,
+   "freq": 8,
+   "score": 0.708,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "flawless",
+   "n_seeds": 2,
+   "mean_sim": 0.618,
+   "freq": 3,
+   "score": 0.679,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "extremely",
+   "n_seeds": 2,
+   "mean_sim": 0.617,
+   "freq": 4,
+   "score": 0.678,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "responsive",
+   "n_seeds": 1,
+   "mean_sim": 0.953,
+   "freq": 7,
+   "score": 0.66,
+   "accepted": true
+  },
+  {
+   "aspect": "performance",
+   "candidate": "refuses",
+   "n_seeds": 2,
+   "mean_sim": 0.579,
+   "freq": 10,
+   "score": 0.636,
+   "accepted": true
+  },
+  {
+   "aspect": "performance",
+   "candidate": "major",
+   "n_seeds": 2,
+   "mean_sim": 0.572,
+   "freq": 6,
+   "score": 0.628,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "chi",
+   "n_seeds": 1,
+   "mean_sim": 0.868,
+   "freq": 6,
+   "score": 0.602,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "ichi",
+   "n_seeds": 1,
+   "mean_sim": 0.851,
+   "freq": 12,
+   "score": 0.59,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "chenyu",
+   "n_seeds": 1,
+   "mean_sim": 0.838,
+   "freq": 3,
+   "score": 0.581,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "section",
+   "n_seeds": 1,
+   "mean_sim": 0.822,
+   "freq": 4,
+   "score": 0.57,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "functioning",
+   "n_seeds": 1,
+   "mean_sim": 0.789,
+   "freq": 10,
+   "score": 0.547,
+   "accepted": true
+  },
+  {
+   "aspect": "performance",
+   "candidate": "closes",
+   "n_seeds": 1,
+   "mean_sim": 0.725,
+   "freq": 15,
+   "score": 0.503,
+   "accepted": true
+  },
+  {
+   "aspect": "performance",
+   "candidate": "morning",
+   "n_seeds": 1,
+   "mean_sim": 0.707,
+   "freq": 4,
+   "score": 0.49,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "enable",
+   "n_seeds": 1,
+   "mean_sim": 0.705,
+   "freq": 3,
+   "score": 0.488,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "opens",
+   "n_seeds": 1,
+   "mean_sim": 0.696,
+   "freq": 14,
+   "score": 0.483,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "launching",
+   "n_seeds": 1,
+   "mean_sim": 0.692,
+   "freq": 3,
+   "score": 0.48,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "removing",
+   "n_seeds": 1,
+   "mean_sim": 0.687,
+   "freq": 3,
+   "score": 0.476,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "saving",
+   "n_seeds": 1,
+   "mean_sim": 0.681,
+   "freq": 10,
+   "score": 0.472,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "goes",
+   "n_seeds": 1,
+   "mean_sim": 0.677,
+   "freq": 3,
+   "score": 0.469,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "double",
+   "n_seeds": 1,
+   "mean_sim": 0.677,
+   "freq": 4,
+   "score": 0.469,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "adding",
+   "n_seeds": 1,
+   "mean_sim": 0.667,
+   "freq": 5,
+   "score": 0.463,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "arrive",
+   "n_seeds": 1,
+   "mean_sim": 0.661,
+   "freq": 3,
+   "score": 0.458,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "starting",
+   "n_seeds": 1,
+   "mean_sim": 0.653,
+   "freq": 3,
+   "score": 0.453,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "hardly",
+   "n_seeds": 1,
+   "mean_sim": 0.652,
+   "freq": 3,
+   "score": 0.452,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "immediately",
+   "n_seeds": 1,
+   "mean_sim": 0.647,
+   "freq": 12,
+   "score": 0.449,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "perfectly",
+   "n_seeds": 1,
+   "mean_sim": 0.645,
+   "freq": 21,
+   "score": 0.447,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "unusable",
+   "n_seeds": 1,
+   "mean_sim": 0.642,
+   "freq": 5,
+   "score": 0.445,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "message",
+   "n_seeds": 1,
+   "mean_sim": 0.641,
+   "freq": 50,
+   "score": 0.444,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "fields",
+   "n_seeds": 1,
+   "mean_sim": 0.633,
+   "freq": 4,
+   "score": 0.439,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "switch",
+   "n_seeds": 1,
+   "mean_sim": 0.631,
+   "freq": 5,
+   "score": 0.437,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "details",
+   "n_seeds": 1,
+   "mean_sim": 0.628,
+   "freq": 20,
+   "score": 0.435,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "innovative",
+   "n_seeds": 1,
+   "mean_sim": 0.628,
+   "freq": 4,
+   "score": 0.435,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "high",
+   "n_seeds": 1,
+   "mean_sim": 0.621,
+   "freq": 10,
+   "score": 0.431,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "pathetic",
+   "n_seeds": 1,
+   "mean_sim": 0.619,
+   "freq": 7,
+   "score": 0.429,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "notch",
+   "n_seeds": 1,
+   "mean_sim": 0.617,
+   "freq": 6,
+   "score": 0.428,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "refused",
+   "n_seeds": 1,
+   "mean_sim": 0.609,
+   "freq": 4,
+   "score": 0.422,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "requires",
+   "n_seeds": 1,
+   "mean_sim": 0.607,
+   "freq": 14,
+   "score": 0.421,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "tap",
+   "n_seeds": 1,
+   "mean_sim": 0.605,
+   "freq": 6,
+   "score": 0.42,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "boxes",
+   "n_seeds": 1,
+   "mean_sim": 0.603,
+   "freq": 12,
+   "score": 0.418,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "automatic",
+   "n_seeds": 1,
+   "mean_sim": 0.602,
+   "freq": 8,
+   "score": 0.417,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "nightmare",
+   "n_seeds": 1,
+   "mean_sim": 0.598,
+   "freq": 8,
+   "score": 0.414,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "rely",
+   "n_seeds": 1,
+   "mean_sim": 0.595,
+   "freq": 3,
+   "score": 0.413,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "moreover",
+   "n_seeds": 1,
+   "mean_sim": 0.594,
+   "freq": 3,
+   "score": 0.412,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "stupid",
+   "n_seeds": 1,
+   "mean_sim": 0.59,
+   "freq": 5,
+   "score": 0.409,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "sorry",
+   "n_seeds": 1,
+   "mean_sim": 0.59,
+   "freq": 5,
+   "score": 0.409,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "page",
+   "n_seeds": 1,
+   "mean_sim": 0.586,
+   "freq": 19,
+   "score": 0.406,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "struggling",
+   "n_seeds": 1,
+   "mean_sim": 0.585,
+   "freq": 7,
+   "score": 0.405,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "auto",
+   "n_seeds": 1,
+   "mean_sim": 0.584,
+   "freq": 4,
+   "score": 0.405,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "pages",
+   "n_seeds": 1,
+   "mean_sim": 0.583,
+   "freq": 3,
+   "score": 0.404,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "launch",
+   "n_seeds": 1,
+   "mean_sim": 0.583,
+   "freq": 9,
+   "score": 0.404,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "expired",
+   "n_seeds": 1,
+   "mean_sim": 0.582,
+   "freq": 9,
+   "score": 0.404,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "becomes",
+   "n_seeds": 1,
+   "mean_sim": 0.575,
+   "freq": 3,
+   "score": 0.399,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "manake",
+   "n_seeds": 1,
+   "mean_sim": 0.575,
+   "freq": 3,
+   "score": 0.398,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "pad",
+   "n_seeds": 1,
+   "mean_sim": 0.573,
+   "freq": 3,
+   "score": 0.397,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "low",
+   "n_seeds": 1,
+   "mean_sim": 0.568,
+   "freq": 9,
+   "score": 0.394,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "deliver",
+   "n_seeds": 1,
+   "mean_sim": 0.567,
+   "freq": 3,
+   "score": 0.393,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "uses",
+   "n_seeds": 1,
+   "mean_sim": 0.562,
+   "freq": 5,
+   "score": 0.389,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "awful",
+   "n_seeds": 1,
+   "mean_sim": 0.559,
+   "freq": 5,
+   "score": 0.388,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "steps",
+   "n_seeds": 1,
+   "mean_sim": 0.558,
+   "freq": 3,
+   "score": 0.387,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "loan",
+   "n_seeds": 1,
+   "mean_sim": 0.558,
+   "freq": 7,
+   "score": 0.387,
+   "accepted": false
+  },
+  {
+   "aspect": "performance",
+   "candidate": "stage",
+   "n_seeds": 1,
+   "mean_sim": 0.552,
+   "freq": 8,
+   "score": 0.383,
+   "accepted": false
+  },
+  {
+   "aspect": "rewards",
+   "candidate": "reference",
+   "n_seeds": 2,
+   "mean_sim": 0.758,
+   "freq": 3,
+   "score": 0.833,
+   "accepted": false
+  },
+  {
+   "aspect": "rewards",
+   "candidate": "point",
+   "n_seeds": 1,
+   "mean_sim": 0.748,
+   "freq": 13,
+   "score": 0.518,
+   "accepted": false
+  },
+  {
+   "aspect": "rewards",
+   "candidate": "dissapointed",
+   "n_seeds": 1,
+   "mean_sim": 0.687,
+   "freq": 3,
+   "score": 0.476,
+   "accepted": false
+  },
+  {
+   "aspect": "rewards",
+   "candidate": "asking",
+   "n_seeds": 1,
+   "mean_sim": 0.652,
+   "freq": 22,
+   "score": 0.452,
+   "accepted": false
+  },
+  {
+   "aspect": "rewards",
+   "candidate": "telling",
+   "n_seeds": 1,
+   "mean_sim": 0.647,
+   "freq": 26,
+   "score": 0.448,
+   "accepted": false
+  },
+  {
+   "aspect": "rewards",
+   "candidate": "liking",
+   "n_seeds": 1,
+   "mean_sim": 0.63,
+   "freq": 3,
+   "score": 0.437,
+   "accepted": false
+  },
+  {
+   "aspect": "rewards",
+   "candidate": "disappointed",
+   "n_seeds": 1,
+   "mean_sim": 0.629,
+   "freq": 34,
+   "score": 0.436,
+   "accepted": false
+  },
+  {
+   "aspect": "rewards",
+   "candidate": "disappointment",
+   "n_seeds": 1,
+   "mean_sim": 0.617,
+   "freq": 6,
+   "score": 0.428,
+   "accepted": false
+  },
+  {
+   "aspect": "rewards",
+   "candidate": "happy",
+   "n_seeds": 1,
+   "mean_sim": 0.616,
+   "freq": 25,
+   "score": 0.427,
+   "accepted": false
+  },
+  {
+   "aspect": "rewards",
+   "candidate": "disappointing",
+   "n_seeds": 1,
+   "mean_sim": 0.614,
+   "freq": 15,
+   "score": 0.426,
+   "accepted": false
+  },
+  {
+   "aspect": "rewards",
+   "candidate": "else",
+   "n_seeds": 1,
+   "mean_sim": 0.605,
+   "freq": 9,
+   "score": 0.419,
+   "accepted": false
+  },
+  {
+   "aspect": "rewards",
+   "candidate": "emergency",
+   "n_seeds": 1,
+   "mean_sim": 0.604,
+   "freq": 3,
+   "score": 0.419,
+   "accepted": false
+  },
+  {
+   "aspect": "rewards",
+   "candidate": "separate",
+   "n_seeds": 1,
+   "mean_sim": 0.603,
+   "freq": 3,
+   "score": 0.418,
+   "accepted": false
+  },
+  {
+   "aspect": "security",
+   "candidate": "secured",
+   "n_seeds": 2,
+   "mean_sim": 0.776,
+   "freq": 5,
+   "score": 0.852,
+   "accepted": true
+  },
+  {
+   "aspect": "security",
+   "candidate": "stopped",
+   "n_seeds": 1,
+   "mean_sim": 0.727,
+   "freq": 14,
+   "score": 0.504,
+   "accepted": false
+  },
+  {
+   "aspect": "security",
+   "candidate": "wiped",
+   "n_seeds": 1,
+   "mean_sim": 0.69,
+   "freq": 3,
+   "score": 0.478,
+   "accepted": false
+  },
+  {
+   "aspect": "security",
+   "candidate": "logged",
+   "n_seeds": 1,
+   "mean_sim": 0.676,
+   "freq": 26,
+   "score": 0.469,
+   "accepted": false
+  },
+  {
+   "aspect": "security",
+   "candidate": "single",
+   "n_seeds": 1,
+   "mean_sim": 0.646,
+   "freq": 4,
+   "score": 0.448,
+   "accepted": false
+  },
+  {
+   "aspect": "security",
+   "candidate": "questions",
+   "n_seeds": 1,
+   "mean_sim": 0.643,
+   "freq": 11,
+   "score": 0.445,
+   "accepted": false
+  },
+  {
+   "aspect": "security",
+   "candidate": "question",
+   "n_seeds": 1,
+   "mean_sim": 0.627,
+   "freq": 4,
+   "score": 0.435,
+   "accepted": false
+  },
+  {
+   "aspect": "security",
+   "candidate": "anywhere",
+   "n_seeds": 1,
+   "mean_sim": 0.618,
+   "freq": 13,
+   "score": 0.429,
+   "accepted": false
+  },
+  {
+   "aspect": "security",
+   "candidate": "ads",
+   "n_seeds": 1,
+   "mean_sim": 0.617,
+   "freq": 11,
+   "score": 0.428,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "complaining",
+   "n_seeds": 2,
+   "mean_sim": 0.88,
+   "freq": 6,
+   "score": 0.967,
+   "accepted": true
+  },
+  {
+   "aspect": "support",
+   "candidate": "concerns",
+   "n_seeds": 2,
+   "mean_sim": 0.625,
+   "freq": 3,
+   "score": 0.687,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "explain",
+   "n_seeds": 2,
+   "mean_sim": 0.615,
+   "freq": 3,
+   "score": 0.676,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "employees",
+   "n_seeds": 2,
+   "mean_sim": 0.614,
+   "freq": 3,
+   "score": 0.674,
+   "accepted": true
+  },
+  {
+   "aspect": "support",
+   "candidate": "complications",
+   "n_seeds": 2,
+   "mean_sim": 0.59,
+   "freq": 3,
+   "score": 0.649,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "rangu",
+   "n_seeds": 2,
+   "mean_sim": 0.581,
+   "freq": 3,
+   "score": 0.638,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "respond",
+   "n_seeds": 1,
+   "mean_sim": 0.862,
+   "freq": 13,
+   "score": 0.597,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "responds",
+   "n_seeds": 1,
+   "mean_sim": 0.846,
+   "freq": 3,
+   "score": 0.586,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "assist",
+   "n_seeds": 1,
+   "mean_sim": 0.756,
+   "freq": 26,
+   "score": 0.524,
+   "accepted": true
+  },
+  {
+   "aspect": "support",
+   "candidate": "instance",
+   "n_seeds": 1,
+   "mean_sim": 0.725,
+   "freq": 3,
+   "score": 0.502,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "assisted",
+   "n_seeds": 1,
+   "mean_sim": 0.723,
+   "freq": 3,
+   "score": 0.501,
+   "accepted": true
+  },
+  {
+   "aspect": "support",
+   "candidate": "whatsoever",
+   "n_seeds": 1,
+   "mean_sim": 0.707,
+   "freq": 3,
+   "score": 0.49,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "suppose",
+   "n_seeds": 1,
+   "mean_sim": 0.667,
+   "freq": 4,
+   "score": 0.463,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "lately",
+   "n_seeds": 1,
+   "mean_sim": 0.645,
+   "freq": 4,
+   "score": 0.447,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "stuff",
+   "n_seeds": 1,
+   "mean_sim": 0.645,
+   "freq": 5,
+   "score": 0.447,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "standard",
+   "n_seeds": 1,
+   "mean_sim": 0.643,
+   "freq": 11,
+   "score": 0.446,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "bravo",
+   "n_seeds": 1,
+   "mean_sim": 0.643,
+   "freq": 3,
+   "score": 0.446,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "encourage",
+   "n_seeds": 1,
+   "mean_sim": 0.628,
+   "freq": 3,
+   "score": 0.435,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "complete",
+   "n_seeds": 1,
+   "mean_sim": 0.594,
+   "freq": 13,
+   "score": 0.412,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "technical",
+   "n_seeds": 1,
+   "mean_sim": 0.57,
+   "freq": 6,
+   "score": 0.395,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "nonsense",
+   "n_seeds": 1,
+   "mean_sim": 0.568,
+   "freq": 12,
+   "score": 0.394,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "contacted",
+   "n_seeds": 1,
+   "mean_sim": 0.566,
+   "freq": 3,
+   "score": 0.393,
+   "accepted": true
+  },
+  {
+   "aspect": "support",
+   "candidate": "minutes",
+   "n_seeds": 1,
+   "mean_sim": 0.563,
+   "freq": 11,
+   "score": 0.391,
+   "accepted": false
+  },
+  {
+   "aspect": "support",
+   "candidate": "supper",
+   "n_seeds": 1,
+   "mean_sim": 0.554,
+   "freq": 7,
+   "score": 0.384,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "transactions",
+   "n_seeds": 5,
+   "mean_sim": 0.765,
+   "freq": 129,
+   "score": 1.371,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "transactional",
+   "n_seeds": 5,
+   "mean_sim": 0.755,
+   "freq": 6,
+   "score": 1.354,
+   "accepted": true
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "transfers",
+   "n_seeds": 5,
+   "mean_sim": 0.75,
+   "freq": 23,
+   "score": 1.343,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "deposits",
+   "n_seeds": 3,
+   "mean_sim": 0.815,
+   "freq": 3,
+   "score": 1.13,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "withdrawals",
+   "n_seeds": 2,
+   "mean_sim": 0.945,
+   "freq": 5,
+   "score": 1.038,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "spin",
+   "n_seeds": 3,
+   "mean_sim": 0.729,
+   "freq": 5,
+   "score": 1.011,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "sends",
+   "n_seeds": 3,
+   "mean_sim": 0.667,
+   "freq": 8,
+   "score": 0.925,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "recipient",
+   "n_seeds": 3,
+   "mean_sim": 0.635,
+   "freq": 5,
+   "score": 0.88,
+   "accepted": true
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "apart",
+   "n_seeds": 3,
+   "mean_sim": 0.607,
+   "freq": 4,
+   "score": 0.841,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "limits",
+   "n_seeds": 2,
+   "mean_sim": 0.758,
+   "freq": 5,
+   "score": 0.833,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "travel",
+   "n_seeds": 3,
+   "mean_sim": 0.576,
+   "freq": 3,
+   "score": 0.798,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "spincity",
+   "n_seeds": 2,
+   "mean_sim": 0.722,
+   "freq": 14,
+   "score": 0.793,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "roaming",
+   "n_seeds": 2,
+   "mean_sim": 0.702,
+   "freq": 3,
+   "score": 0.771,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "resend",
+   "n_seeds": 2,
+   "mean_sim": 0.686,
+   "freq": 3,
+   "score": 0.754,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "select",
+   "n_seeds": 2,
+   "mean_sim": 0.682,
+   "freq": 4,
+   "score": 0.749,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "dialing",
+   "n_seeds": 2,
+   "mean_sim": 0.652,
+   "freq": 3,
+   "score": 0.716,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "selected",
+   "n_seeds": 2,
+   "mean_sim": 0.65,
+   "freq": 3,
+   "score": 0.715,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "dollar",
+   "n_seeds": 2,
+   "mean_sim": 0.614,
+   "freq": 5,
+   "score": 0.675,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "pop",
+   "n_seeds": 2,
+   "mean_sim": 0.613,
+   "freq": 18,
+   "score": 0.674,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "city",
+   "n_seeds": 2,
+   "mean_sim": 0.613,
+   "freq": 9,
+   "score": 0.673,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "within",
+   "n_seeds": 2,
+   "mean_sim": 0.6,
+   "freq": 9,
+   "score": 0.659,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "zig",
+   "n_seeds": 2,
+   "mean_sim": 0.598,
+   "freq": 11,
+   "score": 0.657,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "self",
+   "n_seeds": 2,
+   "mean_sim": 0.58,
+   "freq": 5,
+   "score": 0.637,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "zip",
+   "n_seeds": 1,
+   "mean_sim": 0.835,
+   "freq": 4,
+   "score": 0.579,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "limited",
+   "n_seeds": 1,
+   "mean_sim": 0.823,
+   "freq": 6,
+   "score": 0.57,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "revert",
+   "n_seeds": 1,
+   "mean_sim": 0.784,
+   "freq": 3,
+   "score": 0.543,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "urgent",
+   "n_seeds": 1,
+   "mean_sim": 0.775,
+   "freq": 4,
+   "score": 0.537,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "acting",
+   "n_seeds": 1,
+   "mean_sim": 0.7,
+   "freq": 5,
+   "score": 0.485,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "keeping",
+   "n_seeds": 1,
+   "mean_sim": 0.693,
+   "freq": 3,
+   "score": 0.481,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "wanted",
+   "n_seeds": 1,
+   "mean_sim": 0.672,
+   "freq": 8,
+   "score": 0.466,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "posting",
+   "n_seeds": 1,
+   "mean_sim": 0.666,
+   "freq": 4,
+   "score": 0.461,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "living",
+   "n_seeds": 1,
+   "mean_sim": 0.661,
+   "freq": 3,
+   "score": 0.458,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "writing",
+   "n_seeds": 1,
+   "mean_sim": 0.657,
+   "freq": 4,
+   "score": 0.455,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "giving",
+   "n_seeds": 1,
+   "mean_sim": 0.644,
+   "freq": 31,
+   "score": 0.446,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "pocket",
+   "n_seeds": 1,
+   "mean_sim": 0.642,
+   "freq": 5,
+   "score": 0.445,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "exallent",
+   "n_seeds": 1,
+   "mean_sim": 0.637,
+   "freq": 3,
+   "score": 0.441,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "forever",
+   "n_seeds": 1,
+   "mean_sim": 0.626,
+   "freq": 12,
+   "score": 0.434,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "rated",
+   "n_seeds": 1,
+   "mean_sim": 0.624,
+   "freq": 12,
+   "score": 0.432,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "funds",
+   "n_seeds": 1,
+   "mean_sim": 0.621,
+   "freq": 38,
+   "score": 0.43,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "bucks",
+   "n_seeds": 1,
+   "mean_sim": 0.617,
+   "freq": 3,
+   "score": 0.427,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "nostro",
+   "n_seeds": 1,
+   "mean_sim": 0.612,
+   "freq": 10,
+   "score": 0.424,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "holders",
+   "n_seeds": 1,
+   "mean_sim": 0.612,
+   "freq": 3,
+   "score": 0.424,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "whatever",
+   "n_seeds": 1,
+   "mean_sim": 0.611,
+   "freq": 5,
+   "score": 0.424,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "excited",
+   "n_seeds": 1,
+   "mean_sim": 0.602,
+   "freq": 7,
+   "score": 0.417,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "turns",
+   "n_seeds": 1,
+   "mean_sim": 0.601,
+   "freq": 3,
+   "score": 0.417,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "went",
+   "n_seeds": 1,
+   "mean_sim": 0.6,
+   "freq": 10,
+   "score": 0.416,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "client",
+   "n_seeds": 1,
+   "mean_sim": 0.586,
+   "freq": 5,
+   "score": 0.406,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "wallets",
+   "n_seeds": 1,
+   "mean_sim": 0.582,
+   "freq": 17,
+   "score": 0.404,
+   "accepted": false
+  },
+  {
+   "aspect": "transactions",
+   "candidate": "remove",
+   "n_seeds": 1,
+   "mean_sim": 0.563,
+   "freq": 15,
+   "score": 0.39,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "reinstalling",
+   "n_seeds": 8,
+   "mean_sim": 0.857,
+   "freq": 4,
+   "score": 1.883,
+   "accepted": true
+  },
+  {
+   "aspect": "updates",
+   "candidate": "installation",
+   "n_seeds": 7,
+   "mean_sim": 0.715,
+   "freq": 6,
+   "score": 1.488,
+   "accepted": true
+  },
+  {
+   "aspect": "updates",
+   "candidate": "deleted",
+   "n_seeds": 4,
+   "mean_sim": 0.68,
+   "freq": 4,
+   "score": 1.094,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "upgrades",
+   "n_seeds": 3,
+   "mean_sim": 0.774,
+   "freq": 9,
+   "score": 1.073,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "delete",
+   "n_seeds": 3,
+   "mean_sim": 0.716,
+   "freq": 4,
+   "score": 0.993,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "downgrade",
+   "n_seeds": 3,
+   "mean_sim": 0.7,
+   "freq": 9,
+   "score": 0.97,
+   "accepted": true
+  },
+  {
+   "aspect": "updates",
+   "candidate": "leading",
+   "n_seeds": 2,
+   "mean_sim": 0.697,
+   "freq": 3,
+   "score": 0.766,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "upload",
+   "n_seeds": 2,
+   "mean_sim": 0.672,
+   "freq": 3,
+   "score": 0.739,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "displaying",
+   "n_seeds": 2,
+   "mean_sim": 0.628,
+   "freq": 3,
+   "score": 0.69,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "boring",
+   "n_seeds": 2,
+   "mean_sim": 0.627,
+   "freq": 14,
+   "score": 0.689,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "opened",
+   "n_seeds": 2,
+   "mean_sim": 0.612,
+   "freq": 4,
+   "score": 0.673,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "restore",
+   "n_seeds": 1,
+   "mean_sim": 0.761,
+   "freq": 4,
+   "score": 0.527,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "instant",
+   "n_seeds": 1,
+   "mean_sim": 0.655,
+   "freq": 4,
+   "score": 0.454,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "outdated",
+   "n_seeds": 1,
+   "mean_sim": 0.63,
+   "freq": 4,
+   "score": 0.437,
+   "accepted": true
+  },
+  {
+   "aspect": "updates",
+   "candidate": "date",
+   "n_seeds": 1,
+   "mean_sim": 0.63,
+   "freq": 9,
+   "score": 0.436,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "therefore",
+   "n_seeds": 1,
+   "mean_sim": 0.618,
+   "freq": 3,
+   "score": 0.429,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "apo",
+   "n_seeds": 1,
+   "mean_sim": 0.616,
+   "freq": 6,
+   "score": 0.427,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "instantly",
+   "n_seeds": 1,
+   "mean_sim": 0.605,
+   "freq": 3,
+   "score": 0.419,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "session",
+   "n_seeds": 1,
+   "mean_sim": 0.604,
+   "freq": 9,
+   "score": 0.419,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "ruined",
+   "n_seeds": 1,
+   "mean_sim": 0.591,
+   "freq": 5,
+   "score": 0.41,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "june",
+   "n_seeds": 1,
+   "mean_sim": 0.585,
+   "freq": 8,
+   "score": 0.406,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "trash",
+   "n_seeds": 1,
+   "mean_sim": 0.58,
+   "freq": 10,
+   "score": 0.402,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "happened",
+   "n_seeds": 1,
+   "mean_sim": 0.573,
+   "freq": 6,
+   "score": 0.397,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "rights",
+   "n_seeds": 1,
+   "mean_sim": 0.573,
+   "freq": 3,
+   "score": 0.397,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "frequently",
+   "n_seeds": 1,
+   "mean_sim": 0.571,
+   "freq": 3,
+   "score": 0.396,
+   "accepted": false
+  },
+  {
+   "aspect": "updates",
+   "candidate": "worked",
+   "n_seeds": 1,
+   "mean_sim": 0.57,
+   "freq": 26,
+   "score": 0.395,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "inconveniences",
+   "n_seeds": 5,
+   "mean_sim": 0.855,
+   "freq": 3,
+   "score": 1.533,
+   "accepted": true
+  },
+  {
+   "aspect": "usability",
+   "candidate": "fabulous",
+   "n_seeds": 9,
+   "mean_sim": 0.628,
+   "freq": 4,
+   "score": 1.445,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "inconvinience",
+   "n_seeds": 4,
+   "mean_sim": 0.773,
+   "freq": 3,
+   "score": 1.243,
+   "accepted": true
+  },
+  {
+   "aspect": "usability",
+   "candidate": "convinience",
+   "n_seeds": 5,
+   "mean_sim": 0.685,
+   "freq": 5,
+   "score": 1.227,
+   "accepted": true
+  },
+  {
+   "aspect": "usability",
+   "candidate": "easly",
+   "n_seeds": 3,
+   "mean_sim": 0.764,
+   "freq": 4,
+   "score": 1.06,
+   "accepted": true
+  },
+  {
+   "aspect": "usability",
+   "candidate": "convert",
+   "n_seeds": 3,
+   "mean_sim": 0.668,
+   "freq": 3,
+   "score": 0.926,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "modern",
+   "n_seeds": 3,
+   "mean_sim": 0.642,
+   "freq": 5,
+   "score": 0.891,
+   "accepted": true
+  },
+  {
+   "aspect": "usability",
+   "candidate": "function",
+   "n_seeds": 3,
+   "mean_sim": 0.636,
+   "freq": 19,
+   "score": 0.882,
+   "accepted": true
+  },
+  {
+   "aspect": "usability",
+   "candidate": "god",
+   "n_seeds": 3,
+   "mean_sim": 0.633,
+   "freq": 3,
+   "score": 0.878,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "excellence",
+   "n_seeds": 3,
+   "mean_sim": 0.631,
+   "freq": 3,
+   "score": 0.875,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "future",
+   "n_seeds": 3,
+   "mean_sim": 0.62,
+   "freq": 6,
+   "score": 0.859,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "simply",
+   "n_seeds": 2,
+   "mean_sim": 0.774,
+   "freq": 11,
+   "score": 0.851,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "convinient",
+   "n_seeds": 2,
+   "mean_sim": 0.733,
+   "freq": 22,
+   "score": 0.805,
+   "accepted": true
+  },
+  {
+   "aspect": "usability",
+   "candidate": "functions",
+   "n_seeds": 2,
+   "mean_sim": 0.716,
+   "freq": 11,
+   "score": 0.787,
+   "accepted": true
+  },
+  {
+   "aspect": "usability",
+   "candidate": "seamless",
+   "n_seeds": 2,
+   "mean_sim": 0.649,
+   "freq": 13,
+   "score": 0.713,
+   "accepted": true
+  },
+  {
+   "aspect": "usability",
+   "candidate": "quality",
+   "n_seeds": 2,
+   "mean_sim": 0.643,
+   "freq": 5,
+   "score": 0.707,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "integration",
+   "n_seeds": 2,
+   "mean_sim": 0.639,
+   "freq": 3,
+   "score": 0.702,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "ease",
+   "n_seeds": 2,
+   "mean_sim": 0.629,
+   "freq": 5,
+   "score": 0.691,
+   "accepted": true
+  },
+  {
+   "aspect": "usability",
+   "candidate": "performance",
+   "n_seeds": 2,
+   "mean_sim": 0.623,
+   "freq": 11,
+   "score": 0.685,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "effective",
+   "n_seeds": 2,
+   "mean_sim": 0.612,
+   "freq": 14,
+   "score": 0.673,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "lacks",
+   "n_seeds": 2,
+   "mean_sim": 0.605,
+   "freq": 4,
+   "score": 0.665,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "exellent",
+   "n_seeds": 2,
+   "mean_sim": 0.603,
+   "freq": 4,
+   "score": 0.662,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "insurance",
+   "n_seeds": 2,
+   "mean_sim": 0.597,
+   "freq": 6,
+   "score": 0.656,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "lots",
+   "n_seeds": 2,
+   "mean_sim": 0.593,
+   "freq": 3,
+   "score": 0.651,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "superb",
+   "n_seeds": 2,
+   "mean_sim": 0.584,
+   "freq": 35,
+   "score": 0.641,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "describe",
+   "n_seeds": 2,
+   "mean_sim": 0.577,
+   "freq": 3,
+   "score": 0.634,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "functional",
+   "n_seeds": 1,
+   "mean_sim": 0.909,
+   "freq": 13,
+   "score": 0.63,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "suggest",
+   "n_seeds": 2,
+   "mean_sim": 0.569,
+   "freq": 5,
+   "score": 0.625,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "hand",
+   "n_seeds": 1,
+   "mean_sim": 0.814,
+   "freq": 5,
+   "score": 0.564,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "clear",
+   "n_seeds": 1,
+   "mean_sim": 0.795,
+   "freq": 9,
+   "score": 0.551,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "confused",
+   "n_seeds": 1,
+   "mean_sim": 0.741,
+   "freq": 4,
+   "score": 0.514,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "signed",
+   "n_seeds": 1,
+   "mean_sim": 0.741,
+   "freq": 3,
+   "score": 0.514,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "ultimate",
+   "n_seeds": 1,
+   "mean_sim": 0.733,
+   "freq": 3,
+   "score": 0.508,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "refusing",
+   "n_seeds": 1,
+   "mean_sim": 0.718,
+   "freq": 18,
+   "score": 0.498,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "interactive",
+   "n_seeds": 1,
+   "mean_sim": 0.716,
+   "freq": 3,
+   "score": 0.496,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "keyboard",
+   "n_seeds": 1,
+   "mean_sim": 0.711,
+   "freq": 41,
+   "score": 0.493,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "built",
+   "n_seeds": 1,
+   "mean_sim": 0.711,
+   "freq": 3,
+   "score": 0.493,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "daily",
+   "n_seeds": 1,
+   "mean_sim": 0.699,
+   "freq": 10,
+   "score": 0.484,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "family",
+   "n_seeds": 1,
+   "mean_sim": 0.697,
+   "freq": 3,
+   "score": 0.483,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "search",
+   "n_seeds": 1,
+   "mean_sim": 0.694,
+   "freq": 3,
+   "score": 0.481,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "older",
+   "n_seeds": 1,
+   "mean_sim": 0.692,
+   "freq": 13,
+   "score": 0.48,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "place",
+   "n_seeds": 1,
+   "mean_sim": 0.676,
+   "freq": 13,
+   "score": 0.469,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "market",
+   "n_seeds": 1,
+   "mean_sim": 0.674,
+   "freq": 3,
+   "score": 0.467,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "interesting",
+   "n_seeds": 1,
+   "mean_sim": 0.674,
+   "freq": 8,
+   "score": 0.467,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "wireless",
+   "n_seeds": 1,
+   "mean_sim": 0.673,
+   "freq": 3,
+   "score": 0.466,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "helpful",
+   "n_seeds": 1,
+   "mean_sim": 0.671,
+   "freq": 31,
+   "score": 0.465,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "causing",
+   "n_seeds": 1,
+   "mean_sim": 0.665,
+   "freq": 3,
+   "score": 0.461,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "baba",
+   "n_seeds": 1,
+   "mean_sim": 0.665,
+   "freq": 3,
+   "score": 0.461,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "tool",
+   "n_seeds": 1,
+   "mean_sim": 0.66,
+   "freq": 4,
+   "score": 0.458,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "knowledge",
+   "n_seeds": 1,
+   "mean_sim": 0.648,
+   "freq": 3,
+   "score": 0.449,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "life",
+   "n_seeds": 1,
+   "mean_sim": 0.645,
+   "freq": 28,
+   "score": 0.447,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "effort",
+   "n_seeds": 1,
+   "mean_sim": 0.636,
+   "freq": 4,
+   "score": 0.441,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "financial",
+   "n_seeds": 1,
+   "mean_sim": 0.631,
+   "freq": 11,
+   "score": 0.438,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "cool",
+   "n_seeds": 1,
+   "mean_sim": 0.63,
+   "freq": 35,
+   "score": 0.437,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "legit",
+   "n_seeds": 1,
+   "mean_sim": 0.628,
+   "freq": 5,
+   "score": 0.435,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "suggestion",
+   "n_seeds": 1,
+   "mean_sim": 0.626,
+   "freq": 3,
+   "score": 0.434,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "piece",
+   "n_seeds": 1,
+   "mean_sim": 0.625,
+   "freq": 4,
+   "score": 0.433,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "impressed",
+   "n_seeds": 1,
+   "mean_sim": 0.615,
+   "freq": 4,
+   "score": 0.426,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "hence",
+   "n_seeds": 1,
+   "mean_sim": 0.615,
+   "freq": 6,
+   "score": 0.426,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "using",
+   "n_seeds": 1,
+   "mean_sim": 0.61,
+   "freq": 166,
+   "score": 0.423,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "impressive",
+   "n_seeds": 1,
+   "mean_sim": 0.607,
+   "freq": 4,
+   "score": 0.421,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "example",
+   "n_seeds": 1,
+   "mean_sim": 0.603,
+   "freq": 5,
+   "score": 0.418,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "splendid",
+   "n_seeds": 1,
+   "mean_sim": 0.603,
+   "freq": 10,
+   "score": 0.418,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "makes",
+   "n_seeds": 1,
+   "mean_sim": 0.6,
+   "freq": 48,
+   "score": 0.416,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "ordinary",
+   "n_seeds": 1,
+   "mean_sim": 0.6,
+   "freq": 3,
+   "score": 0.416,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "usual",
+   "n_seeds": 1,
+   "mean_sim": 0.599,
+   "freq": 3,
+   "score": 0.415,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "yangu",
+   "n_seeds": 1,
+   "mean_sim": 0.594,
+   "freq": 4,
+   "score": 0.412,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "investing",
+   "n_seeds": 1,
+   "mean_sim": 0.592,
+   "freq": 3,
+   "score": 0.411,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "notice",
+   "n_seeds": 1,
+   "mean_sim": 0.592,
+   "freq": 4,
+   "score": 0.41,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "address",
+   "n_seeds": 1,
+   "mean_sim": 0.585,
+   "freq": 4,
+   "score": 0.406,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "click",
+   "n_seeds": 1,
+   "mean_sim": 0.583,
+   "freq": 14,
+   "score": 0.404,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "march",
+   "n_seeds": 1,
+   "mean_sim": 0.582,
+   "freq": 3,
+   "score": 0.403,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "considering",
+   "n_seeds": 1,
+   "mean_sim": 0.575,
+   "freq": 5,
+   "score": 0.399,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "completely",
+   "n_seeds": 1,
+   "mean_sim": 0.564,
+   "freq": 11,
+   "score": 0.391,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "basis",
+   "n_seeds": 1,
+   "mean_sim": 0.561,
+   "freq": 3,
+   "score": 0.389,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "prompt",
+   "n_seeds": 1,
+   "mean_sim": 0.558,
+   "freq": 4,
+   "score": 0.386,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "seeing",
+   "n_seeds": 1,
+   "mean_sim": 0.555,
+   "freq": 5,
+   "score": 0.384,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "soo",
+   "n_seeds": 1,
+   "mean_sim": 0.554,
+   "freq": 13,
+   "score": 0.384,
+   "accepted": false
+  },
+  {
+   "aspect": "usability",
+   "candidate": "blocks",
+   "n_seeds": 1,
+   "mean_sim": 0.554,
+   "freq": 3,
+   "score": 0.384,
+   "accepted": false
+  }
+ ]
+}

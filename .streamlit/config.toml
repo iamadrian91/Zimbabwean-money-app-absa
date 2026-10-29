@@ -1,0 +1,13 @@
+[theme]
+base = "light"
+primaryColor = "#0F3D2E"
+backgroundColor = "#F1F4F2"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#10211B"
+
+[server]
+headless = true
+enableStaticServing = true      # serves app/static (the bundled Manrope font)
+
+[browser]
+gatherUsageStats = false

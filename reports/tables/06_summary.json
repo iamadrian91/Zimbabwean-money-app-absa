@@ -1,0 +1,188 @@
+{
+  "n_sentences": 250,
+  "n_aspect_pairs": 339,
+  "star_vs_human_agreement": 0.7352941176470589,
+  "detection": {
+    "seed lexicon": {
+      "precision": 0.6231,
+      "recall": 0.8289,
+      "f1": 0.7114,
+      "macro_f1": 0.7169,
+      "recall (random sample only)": 0.6604,
+      "tp": 281.0,
+      "fp": 170.0,
+      "fn": 58.0
+    },
+    "seed + FastText expansion": {
+      "precision": 0.6201,
+      "recall": 0.8378,
+      "f1": 0.7127,
+      "macro_f1": 0.7167,
+      "recall (random sample only)": 0.6792,
+      "tp": 284.0,
+      "fp": 174.0,
+      "fn": 55.0
+    }
+  },
+  "aspect_sentiment_best_scope": "clause",
+  "aspect_sentiment": [
+    {
+      "scope": "sentence",
+      "method": "our model",
+      "n": 339,
+      "accuracy": 0.7168,
+      "macro_f1": 0.6268,
+      "95% CI": "[0.572, 0.679]",
+      "f1_negative": 0.8208,
+      "f1_neutral": 0.339,
+      "f1_positive": 0.7206
+    },
+    {
+      "scope": "sentence",
+      "method": "transformer",
+      "n": 339,
+      "accuracy": 0.7345,
+      "macro_f1": 0.6728,
+      "95% CI": "[0.618, 0.726]",
+      "f1_negative": 0.8208,
+      "f1_neutral": 0.4,
+      "f1_positive": 0.7975
+    },
+    {
+      "scope": "sentence",
+      "method": "VADER",
+      "n": 339,
+      "accuracy": 0.4867,
+      "macro_f1": 0.431,
+      "95% CI": "[0.380, 0.478]",
+      "f1_negative": 0.5627,
+      "f1_neutral": 0.1692,
+      "f1_positive": 0.5611
+    },
+    {
+      "scope": "sentence",
+      "method": "review stars",
+      "n": 339,
+      "accuracy": 0.7434,
+      "macro_f1": 0.5868,
+      "95% CI": "[0.528, 0.647]",
+      "f1_negative": 0.855,
+      "f1_neutral": 0.2258,
+      "f1_positive": 0.6794
+    },
+    {
+      "scope": "clause",
+      "method": "our model",
+      "n": 339,
+      "accuracy": 0.7375,
+      "macro_f1": 0.642,
+      "95% CI": "[0.585, 0.696]",
+      "f1_negative": 0.8345,
+      "f1_neutral": 0.3486,
+      "f1_positive": 0.7429
+    },
+    {
+      "scope": "clause",
+      "method": "transformer",
+      "n": 339,
+      "accuracy": 0.7611,
+      "macro_f1": 0.7075,
+      "95% CI": "[0.651, 0.758]",
+      "f1_negative": 0.8351,
+      "f1_neutral": 0.4394,
+      "f1_positive": 0.8481
+    },
+    {
+      "scope": "clause",
+      "method": "VADER",
+      "n": 339,
+      "accuracy": 0.4808,
+      "macro_f1": 0.4302,
+      "95% CI": "[0.383, 0.477]",
+      "f1_negative": 0.5556,
+      "f1_neutral": 0.1583,
+      "f1_positive": 0.5767
+    },
+    {
+      "scope": "clause",
+      "method": "review stars",
+      "n": 339,
+      "accuracy": 0.7434,
+      "macro_f1": 0.5868,
+      "95% CI": "[0.528, 0.647]",
+      "f1_negative": 0.855,
+      "f1_neutral": 0.2258,
+      "f1_positive": 0.6794
+    },
+    {
+      "scope": "dependency",
+      "method": "our model",
+      "n": 339,
+      "accuracy": 0.6372,
+      "macro_f1": 0.5625,
+      "95% CI": "[0.508, 0.616]",
+      "f1_negative": 0.7379,
+      "f1_neutral": 0.3115,
+      "f1_positive": 0.638
+    },
+    {
+      "scope": "dependency",
+      "method": "transformer",
+      "n": 339,
+      "accuracy": 0.5752,
+      "macro_f1": 0.5747,
+      "95% CI": "[0.525, 0.621]",
+      "f1_negative": 0.6568,
+      "f1_neutral": 0.3415,
+      "f1_positive": 0.7259
+    },
+    {
+      "scope": "dependency",
+      "method": "VADER",
+      "n": 339,
+      "accuracy": 0.3746,
+      "macro_f1": 0.3915,
+      "95% CI": "[0.342, 0.437]",
+      "f1_negative": 0.375,
+      "f1_neutral": 0.2162,
+      "f1_positive": 0.5833
+    },
+    {
+      "scope": "dependency",
+      "method": "review stars",
+      "n": 339,
+      "accuracy": 0.7434,
+      "macro_f1": 0.5868,
+      "95% CI": "[0.528, 0.647]",
+      "f1_negative": 0.855,
+      "f1_neutral": 0.2258,
+      "f1_positive": 0.6794
+    }
+  ],
+  "end_to_end": {
+    "sentence": {
+      "precision": 0.4476,
+      "recall": 0.6047,
+      "f1": 0.5144,
+      "tp": 205.0,
+      "fp": 253.0,
+      "fn": 134.0
+    },
+    "clause": {
+      "precision": 0.4629,
+      "recall": 0.6254,
+      "f1": 0.532,
+      "tp": 212.0,
+      "fp": 246.0,
+      "fn": 127.0
+    },
+    "dependency": {
+      "precision": 0.3886,
+      "recall": 0.5251,
+      "f1": 0.4467,
+      "tp": 178.0,
+      "fp": 280.0,
+      "fn": 161.0
+    }
+  }
+}

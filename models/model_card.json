@@ -1,0 +1,8 @@
+{
+  "features": "tfidf_word_char",
+  "classifier": "logreg",
+  "params": {
+    "clf__C": 0.3
+  },
+  "cv_macro_f1": 0.6329521875374731
+}

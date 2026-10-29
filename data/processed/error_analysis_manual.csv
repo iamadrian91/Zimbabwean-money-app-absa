@@ -1,0 +1,41 @@
+﻿reviewId,category,note
+79fe3fdc-c946-45f8-913d-7af5dd9784df,label_noise,"5 stars on ""it's not logged in"""
+cc4da89a-795f-4f2e-b8a6-177ae9c5d489,label_noise,
+4855321b-8be5-4aca-9260-0988e066b81e,label_noise,
+3541cfaf-144d-43a9-895f-fde201f3b642,label_noise,"5 stars on ""Not open"""
+08f6093c-11e5-4528-808c-0e412eb4a742,label_noise,
+9b373980-eba5-41e5-a02c-b4051884c34c,label_noise,
+b71f5782-6f46-45a3-9e2d-4974e2859153,label_noise,
+671fadfa-b3a4-467f-ac3a-25fcefef3fe7,label_noise,
+84e18a77-b322-41a6-b1cb-0ad90dbd34c5,label_noise,
+459bb98f-dd7d-4c21-85ff-260fc5eabb75,label_noise,"2 stars on ""Cool"""
+46801da7-23df-4048-96e1-2e61f7f97c6f,label_noise,
+3c01b91b-c637-4fa7-a58f-ab5c72a1c3d7,label_noise,
+ac991d86-fd04-4f8c-9d1d-eea000a89696,mixed_opinion,
+ec8fc840-b7ef-40d0-b0f2-f38af6766645,mixed_opinion,
+1d3e8e8d-c70e-484b-8b0c-9009650f748d,mixed_opinion,
+c20e41f0-43ab-4388-99c1-59d3ce9b2a63,mixed_opinion,
+0c01f6ef-1645-48d5-86be-3d85221b7198,mixed_opinion,
+b09529a9-f3b6-4210-97fd-00796a3eb822,mixed_opinion,
+501d5e8d-81b3-45d7-9871-81c4a56eabf3,mixed_opinion,
+54830f3e-23e8-4b99-b09c-fa99cc7e2478,mixed_opinion,
+eb83979c-c853-4301-b762-f0025f1ca654,mixed_opinion,
+92698470-d80d-44eb-b632-8903bade1646,positive_in_negative_words,"""from old to new, slow to fast"" is praise"
+725b8ffd-0930-4164-b066-75a5c9dd9120,positive_in_negative_words,"""you won't need to carry cash"" is praise"
+6b05c951-57a7-4fb0-8a31-e3f6fe202c95,positive_in_negative_words,"""trouble free"", ""can't do without it"", ""unnecessary trips avoided"""
+1a347c5f-c0c2-4edc-9a01-2ef112f6d937,domain_words_biased,"""transact, send or receive money"": words that usually appear in complaints"
+7bae2b32-367c-45f8-acb0-5cc537c441ba,domain_words_biased,
+f4978d9d-e1ba-4c12-8167-5454c3d1e116,model_error,
+9e8dd738-89aa-4778-a99b-0466f0222fa0,model_error,
+023c43c3-b354-439b-92d4-b9b0039d17fe,model_error,
+b4c1c884-1dbb-43ff-82d1-f17d9ef9ac67,model_error,
+ea652f9b-2e3d-49bf-b88d-9057c92ab79a,model_error,"hedged negation ""not that user friendly"""
+dbebe483-f382-45c2-832f-5329d8d533d4,model_error,factual complaint without emotional words
+7f844290-c13e-4bb1-932b-a680b0540876,model_error,
+c3e228fc-32b7-4171-a6d3-eada46890280,model_error,
+ab1e8e24-f929-418c-8e52-daf07d020161,model_error,
+510f6078-e104-4669-aaed-117847d9273a,uninformative_text,
+c279d990-b355-493c-8522-aa6098317750,uninformative_text,
+c537281c-3ac4-477c-86ea-336d7f2be845,uninformative_text,
+8a3c93a4-b8f8-4ef9-bea9-0b9f66d4d752,uninformative_text,"""Hectic"": Zimbabwean slang, ambiguous"
+7f7b794c-0f17-4041-9081-f02db3e87829,uninformative_text,
